@@ -1,1 +1,26 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Times New Roman';
+  background: linen;
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-size: medium;
+  padding: 10px;
+  color: midnightblue;
+}
+
+#product-list {
+transition: background-color 0.5s ease-in-out;
+}
+
+#product-list:hover {
+    background-color: lavender;
+    box-shadow: lavender 0px 0px 10px; 
+    transform: scale(1.01)
+  }
+
 
